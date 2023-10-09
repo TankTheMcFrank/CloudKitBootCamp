@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1A4F5EE2ACDDF870089037B /* CloudKitBootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F5ED2ACDDF870089037B /* CloudKitBootCampApp.swift */; };
+		A1A4F5F02ACDDF870089037B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F5EF2ACDDF870089037B /* ContentView.swift */; };
+		A1A4F5F22ACDDF8D0089037B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A4F5F12ACDDF8D0089037B /* Assets.xcassets */; };
+		A1A4F5F52ACDDF8D0089037B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A4F5F42ACDDF8D0089037B /* Preview Assets.xcassets */; };
+		A1A4F5F72ACDDF8D0089037B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F5F62ACDDF8D0089037B /* Persistence.swift */; };
+		A1A4F5FA2ACDDF8D0089037B /* CloudKitBootCamp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F5F82ACDDF8D0089037B /* CloudKitBootCamp.xcdatamodeld */; };
+		A1A4F6042ACDDF8E0089037B /* CloudKitBootCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F6032ACDDF8E0089037B /* CloudKitBootCampTests.swift */; };
+		A1A4F60E2ACDDF8E0089037B /* CloudKitBootCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F60D2ACDDF8E0089037B /* CloudKitBootCampUITests.swift */; };
+		A1A4F6102ACDDF8E0089037B /* CloudKitBootCampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F60F2ACDDF8E0089037B /* CloudKitBootCampUITestsLaunchTests.swift */; };
+		A1A4F61E2ACDE0140089037B /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F61D2ACDE0140089037B /* CloudKitUserBootcamp.swift */; };
+		A1A4F6212AD0B49E0089037B /* CloudKitCrudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F6202AD0B49E0089037B /* CloudKitCrudBootcamp.swift */; };
+		A1A4F6232AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F6222AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1A4F6002ACDDF8E0089037B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A4F5E22ACDDF860089037B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A4F5E92ACDDF870089037B;
+			remoteInfo = CloudKitBootCamp;
+		};
+		A1A4F60A2ACDDF8E0089037B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A4F5E22ACDDF860089037B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A4F5E92ACDDF870089037B;
+			remoteInfo = CloudKitBootCamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1A4F5EA2ACDDF870089037B /* CloudKitBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A4F5ED2ACDDF870089037B /* CloudKitBootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitBootCampApp.swift; sourceTree = "<group>"; };
+		A1A4F5EF2ACDDF870089037B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1A4F5F12ACDDF8D0089037B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A4F5F42ACDDF8D0089037B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1A4F5F62ACDDF8D0089037B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A1A4F5F92ACDDF8D0089037B /* CloudKitBootCamp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloudKitBootCamp.xcdatamodel; sourceTree = "<group>"; };
+		A1A4F5FF2ACDDF8E0089037B /* CloudKitBootCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudKitBootCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A4F6032ACDDF8E0089037B /* CloudKitBootCampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitBootCampTests.swift; sourceTree = "<group>"; };
+		A1A4F6092ACDDF8E0089037B /* CloudKitBootCampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudKitBootCampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A4F60D2ACDDF8E0089037B /* CloudKitBootCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitBootCampUITests.swift; sourceTree = "<group>"; };
+		A1A4F60F2ACDDF8E0089037B /* CloudKitBootCampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitBootCampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1A4F61D2ACDE0140089037B /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
+		A1A4F61F2ACDE07E0089037B /* CloudKitBootCamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitBootCamp.entitlements; sourceTree = "<group>"; };
+		A1A4F6202AD0B49E0089037B /* CloudKitCrudBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrudBootcamp.swift; sourceTree = "<group>"; };
+		A1A4F6222AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPushNotificationBootcamp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A4F5E72ACDDF870089037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A4F5FC2ACDDF8E0089037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A4F6062ACDDF8E0089037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A4F5E12ACDDF860089037B = {
+			isa = PBXGroup;
+			children = (
+				A1A4F5EC2ACDDF870089037B /* CloudKitBootCamp */,
+				A1A4F6022ACDDF8E0089037B /* CloudKitBootCampTests */,
+				A1A4F60C2ACDDF8E0089037B /* CloudKitBootCampUITests */,
+				A1A4F5EB2ACDDF870089037B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A4F5EB2ACDDF870089037B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A4F5EA2ACDDF870089037B /* CloudKitBootCamp.app */,
+				A1A4F5FF2ACDDF8E0089037B /* CloudKitBootCampTests.xctest */,
+				A1A4F6092ACDDF8E0089037B /* CloudKitBootCampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A4F5EC2ACDDF870089037B /* CloudKitBootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				A1A4F61F2ACDE07E0089037B /* CloudKitBootCamp.entitlements */,
+				A1A4F5ED2ACDDF870089037B /* CloudKitBootCampApp.swift */,
+				A1A4F61C2ACDDFDE0089037B /* Views */,
+				A1A4F5F12ACDDF8D0089037B /* Assets.xcassets */,
+				A1A4F5F62ACDDF8D0089037B /* Persistence.swift */,
+				A1A4F5F82ACDDF8D0089037B /* CloudKitBootCamp.xcdatamodeld */,
+				A1A4F5F32ACDDF8D0089037B /* Preview Content */,
+			);
+			path = CloudKitBootCamp;
+			sourceTree = "<group>";
+		};
+		A1A4F5F32ACDDF8D0089037B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1A4F5F42ACDDF8D0089037B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1A4F6022ACDDF8E0089037B /* CloudKitBootCampTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A4F6032ACDDF8E0089037B /* CloudKitBootCampTests.swift */,
+			);
+			path = CloudKitBootCampTests;
+			sourceTree = "<group>";
+		};
+		A1A4F60C2ACDDF8E0089037B /* CloudKitBootCampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A4F60D2ACDDF8E0089037B /* CloudKitBootCampUITests.swift */,
+				A1A4F60F2ACDDF8E0089037B /* CloudKitBootCampUITestsLaunchTests.swift */,
+			);
+			path = CloudKitBootCampUITests;
+			sourceTree = "<group>";
+		};
+		A1A4F61C2ACDDFDE0089037B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1A4F5EF2ACDDF870089037B /* ContentView.swift */,
+				A1A4F61D2ACDE0140089037B /* CloudKitUserBootcamp.swift */,
+				A1A4F6202AD0B49E0089037B /* CloudKitCrudBootcamp.swift */,
+				A1A4F6222AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A4F5E92ACDDF870089037B /* CloudKitBootCamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A4F6132ACDDF8E0089037B /* Build configuration list for PBXNativeTarget "CloudKitBootCamp" */;
+			buildPhases = (
+				A1A4F5E62ACDDF870089037B /* Sources */,
+				A1A4F5E72ACDDF870089037B /* Frameworks */,
+				A1A4F5E82ACDDF870089037B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudKitBootCamp;
+			productName = CloudKitBootCamp;
+			productReference = A1A4F5EA2ACDDF870089037B /* CloudKitBootCamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1A4F5FE2ACDDF8E0089037B /* CloudKitBootCampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A4F6162ACDDF8E0089037B /* Build configuration list for PBXNativeTarget "CloudKitBootCampTests" */;
+			buildPhases = (
+				A1A4F5FB2ACDDF8E0089037B /* Sources */,
+				A1A4F5FC2ACDDF8E0089037B /* Frameworks */,
+				A1A4F5FD2ACDDF8E0089037B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A4F6012ACDDF8E0089037B /* PBXTargetDependency */,
+			);
+			name = CloudKitBootCampTests;
+			productName = CloudKitBootCampTests;
+			productReference = A1A4F5FF2ACDDF8E0089037B /* CloudKitBootCampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1A4F6082ACDDF8E0089037B /* CloudKitBootCampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A4F6192ACDDF8E0089037B /* Build configuration list for PBXNativeTarget "CloudKitBootCampUITests" */;
+			buildPhases = (
+				A1A4F6052ACDDF8E0089037B /* Sources */,
+				A1A4F6062ACDDF8E0089037B /* Frameworks */,
+				A1A4F6072ACDDF8E0089037B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A4F60B2ACDDF8E0089037B /* PBXTargetDependency */,
+			);
+			name = CloudKitBootCampUITests;
+			productName = CloudKitBootCampUITests;
+			productReference = A1A4F6092ACDDF8E0089037B /* CloudKitBootCampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A4F5E22ACDDF860089037B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1A4F5E92ACDDF870089037B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A1A4F5FE2ACDDF8E0089037B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A1A4F5E92ACDDF870089037B;
+					};
+					A1A4F6082ACDDF8E0089037B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A1A4F5E92ACDDF870089037B;
+					};
+				};
+			};
+			buildConfigurationList = A1A4F5E52ACDDF860089037B /* Build configuration list for PBXProject "CloudKitBootCamp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1A4F5E12ACDDF860089037B;
+			productRefGroup = A1A4F5EB2ACDDF870089037B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A4F5E92ACDDF870089037B /* CloudKitBootCamp */,
+				A1A4F5FE2ACDDF8E0089037B /* CloudKitBootCampTests */,
+				A1A4F6082ACDDF8E0089037B /* CloudKitBootCampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A4F5E82ACDDF870089037B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A4F5F52ACDDF8D0089037B /* Preview Assets.xcassets in Resources */,
+				A1A4F5F22ACDDF8D0089037B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A4F5FD2ACDDF8E0089037B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A4F6072ACDDF8E0089037B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A4F5E62ACDDF870089037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A4F5F72ACDDF8D0089037B /* Persistence.swift in Sources */,
+				A1A4F6212AD0B49E0089037B /* CloudKitCrudBootcamp.swift in Sources */,
+				A1A4F5FA2ACDDF8D0089037B /* CloudKitBootCamp.xcdatamodeld in Sources */,
+				A1A4F5F02ACDDF870089037B /* ContentView.swift in Sources */,
+				A1A4F5EE2ACDDF870089037B /* CloudKitBootCampApp.swift in Sources */,
+				A1A4F6232AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift in Sources */,
+				A1A4F61E2ACDE0140089037B /* CloudKitUserBootcamp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A4F5FB2ACDDF8E0089037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A4F6042ACDDF8E0089037B /* CloudKitBootCampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A4F6052ACDDF8E0089037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A4F6102ACDDF8E0089037B /* CloudKitBootCampUITestsLaunchTests.swift in Sources */,
+				A1A4F60E2ACDDF8E0089037B /* CloudKitBootCampUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1A4F6012ACDDF8E0089037B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A4F5E92ACDDF870089037B /* CloudKitBootCamp */;
+			targetProxy = A1A4F6002ACDDF8E0089037B /* PBXContainerItemProxy */;
+		};
+		A1A4F60B2ACDDF8E0089037B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A4F5E92ACDDF870089037B /* CloudKitBootCamp */;
+			targetProxy = A1A4F60A2ACDDF8E0089037B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1A4F6112ACDDF8E0089037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1A4F6122ACDDF8E0089037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1A4F6142ACDDF8E0089037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudKitBootCamp/CloudKitBootCamp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudKitBootCamp/Preview Content\"";
+				DEVELOPMENT_TEAM = 56892NZNT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankHerring.CloudKitBootCamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1A4F6152ACDDF8E0089037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudKitBootCamp/CloudKitBootCamp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudKitBootCamp/Preview Content\"";
+				DEVELOPMENT_TEAM = 56892NZNT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankHerring.CloudKitBootCamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1A4F6172ACDDF8E0089037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankHerring.CloudKitBootCampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKitBootCamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudKitBootCamp";
+			};
+			name = Debug;
+		};
+		A1A4F6182ACDDF8E0089037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankHerring.CloudKitBootCampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKitBootCamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudKitBootCamp";
+			};
+			name = Release;
+		};
+		A1A4F61A2ACDDF8E0089037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankHerring.CloudKitBootCampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudKitBootCamp;
+			};
+			name = Debug;
+		};
+		A1A4F61B2ACDDF8E0089037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankHerring.CloudKitBootCampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudKitBootCamp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A4F5E52ACDDF860089037B /* Build configuration list for PBXProject "CloudKitBootCamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A4F6112ACDDF8E0089037B /* Debug */,
+				A1A4F6122ACDDF8E0089037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A4F6132ACDDF8E0089037B /* Build configuration list for PBXNativeTarget "CloudKitBootCamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A4F6142ACDDF8E0089037B /* Debug */,
+				A1A4F6152ACDDF8E0089037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A4F6162ACDDF8E0089037B /* Build configuration list for PBXNativeTarget "CloudKitBootCampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A4F6172ACDDF8E0089037B /* Debug */,
+				A1A4F6182ACDDF8E0089037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A4F6192ACDDF8E0089037B /* Build configuration list for PBXNativeTarget "CloudKitBootCampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A4F61A2ACDDF8E0089037B /* Debug */,
+				A1A4F61B2ACDDF8E0089037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1A4F5F82ACDDF8D0089037B /* CloudKitBootCamp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1A4F5F92ACDDF8D0089037B /* CloudKitBootCamp.xcdatamodel */,
+			);
+			currentVersion = A1A4F5F92ACDDF8D0089037B /* CloudKitBootCamp.xcdatamodel */;
+			path = CloudKitBootCamp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1A4F5E22ACDDF860089037B /* Project object */;
+}
