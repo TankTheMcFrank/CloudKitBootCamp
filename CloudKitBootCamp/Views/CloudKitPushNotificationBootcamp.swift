@@ -86,6 +86,6 @@ struct CloudKitPushNotificationBootcamp: View {
     }
 }
 
-//#Preview {
-//    CloudKitPushNotificationBootcamp()
-//}
+#Preview {
+    CloudKitPushNotificationBootcamp()
+}

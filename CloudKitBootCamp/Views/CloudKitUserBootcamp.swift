@@ -99,6 +99,6 @@ struct CloudKitUserBootcamp: View {
     }
 }
 
-//#Preview {
-//    CloudKitUserBootcamp()
-//}
+#Preview {
+    CloudKitUserBootcamp()
+}

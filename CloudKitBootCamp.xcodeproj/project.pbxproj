@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A1A4F5EE2ACDDF870089037B /* CloudKitBootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F5ED2ACDDF870089037B /* CloudKitBootCampApp.swift */; };
-		A1A4F5F02ACDDF870089037B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F5EF2ACDDF870089037B /* ContentView.swift */; };
 		A1A4F5F22ACDDF8D0089037B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A4F5F12ACDDF8D0089037B /* Assets.xcassets */; };
 		A1A4F5F52ACDDF8D0089037B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A4F5F42ACDDF8D0089037B /* Preview Assets.xcassets */; };
 		A1A4F5F72ACDDF8D0089037B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F5F62ACDDF8D0089037B /* Persistence.swift */; };
@@ -19,6 +18,7 @@
 		A1A4F61E2ACDE0140089037B /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F61D2ACDE0140089037B /* CloudKitUserBootcamp.swift */; };
 		A1A4F6212AD0B49E0089037B /* CloudKitCrudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F6202AD0B49E0089037B /* CloudKitCrudBootcamp.swift */; };
 		A1A4F6232AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F6222AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift */; };
+		EBA313852AD38DD6000EEB0A /* ViewModifierBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA313842AD38DD6000EEB0A /* ViewModifierBootcampView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 /* Begin PBXFileReference section */
 		A1A4F5EA2ACDDF870089037B /* CloudKitBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A4F5ED2ACDDF870089037B /* CloudKitBootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitBootCampApp.swift; sourceTree = "<group>"; };
-		A1A4F5EF2ACDDF870089037B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1A4F5F12ACDDF8D0089037B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A4F5F42ACDDF8D0089037B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1A4F5F62ACDDF8D0089037B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		A1A4F61F2ACDE07E0089037B /* CloudKitBootCamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitBootCamp.entitlements; sourceTree = "<group>"; };
 		A1A4F6202AD0B49E0089037B /* CloudKitCrudBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrudBootcamp.swift; sourceTree = "<group>"; };
 		A1A4F6222AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPushNotificationBootcamp.swift; sourceTree = "<group>"; };
+		EBA313842AD38DD6000EEB0A /* ViewModifierBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcampView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 		A1A4F61C2ACDDFDE0089037B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A1A4F5EF2ACDDF870089037B /* ContentView.swift */,
+				EBA313842AD38DD6000EEB0A /* ViewModifierBootcampView.swift */,
 				A1A4F61D2ACDE0140089037B /* CloudKitUserBootcamp.swift */,
 				A1A4F6202AD0B49E0089037B /* CloudKitCrudBootcamp.swift */,
 				A1A4F6222AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift */,
@@ -285,7 +285,7 @@
 				A1A4F5F72ACDDF8D0089037B /* Persistence.swift in Sources */,
 				A1A4F6212AD0B49E0089037B /* CloudKitCrudBootcamp.swift in Sources */,
 				A1A4F5FA2ACDDF8D0089037B /* CloudKitBootCamp.xcdatamodeld in Sources */,
-				A1A4F5F02ACDDF870089037B /* ContentView.swift in Sources */,
+				EBA313852AD38DD6000EEB0A /* ViewModifierBootcampView.swift in Sources */,
 				A1A4F5EE2ACDDF870089037B /* CloudKitBootCampApp.swift in Sources */,
 				A1A4F6232AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift in Sources */,
 				A1A4F61E2ACDE0140089037B /* CloudKitUserBootcamp.swift in Sources */,

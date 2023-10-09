@@ -190,9 +190,9 @@ struct CloudKitCrudBootcamp: View {
     }
 }
 
-//#Preview {
-//    CloudKitCrudBootcamp()
-//}
+#Preview {
+    CloudKitCrudBootcamp()
+}
 
 extension CloudKitCrudBootcamp {
     private var header: some View {
