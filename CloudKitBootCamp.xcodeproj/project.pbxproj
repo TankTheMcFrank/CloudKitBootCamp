@@ -19,6 +19,7 @@
 		A1A4F6212AD0B49E0089037B /* CloudKitCrudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F6202AD0B49E0089037B /* CloudKitCrudBootcamp.swift */; };
 		A1A4F6232AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4F6222AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift */; };
 		EBA313852AD38DD6000EEB0A /* ViewModifierBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA313842AD38DD6000EEB0A /* ViewModifierBootcampView.swift */; };
+		EBA313882AD4CD6A000EEB0A /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA313872AD4CD6A000EEB0A /* ButtonStyleBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A1A4F6202AD0B49E0089037B /* CloudKitCrudBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrudBootcamp.swift; sourceTree = "<group>"; };
 		A1A4F6222AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPushNotificationBootcamp.swift; sourceTree = "<group>"; };
 		EBA313842AD38DD6000EEB0A /* ViewModifierBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcampView.swift; sourceTree = "<group>"; };
+		EBA313872AD4CD6A000EEB0A /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,11 +147,20 @@
 			isa = PBXGroup;
 			children = (
 				EBA313842AD38DD6000EEB0A /* ViewModifierBootcampView.swift */,
+				EBA313862AD4CD45000EEB0A /* CloudKit */,
+				EBA313872AD4CD6A000EEB0A /* ButtonStyleBootcamp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EBA313862AD4CD45000EEB0A /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
 				A1A4F61D2ACDE0140089037B /* CloudKitUserBootcamp.swift */,
 				A1A4F6202AD0B49E0089037B /* CloudKitCrudBootcamp.swift */,
 				A1A4F6222AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift */,
 			);
-			path = Views;
+			path = CloudKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 				EBA313852AD38DD6000EEB0A /* ViewModifierBootcampView.swift in Sources */,
 				A1A4F5EE2ACDDF870089037B /* CloudKitBootCampApp.swift in Sources */,
 				A1A4F6232AD0D53D0089037B /* CloudKitPushNotificationBootcamp.swift in Sources */,
+				EBA313882AD4CD6A000EEB0A /* ButtonStyleBootcamp.swift in Sources */,
 				A1A4F61E2ACDE0140089037B /* CloudKitUserBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
